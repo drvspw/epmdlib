@@ -1,0 +1,15 @@
+{application, epmdlib,
+ [{description, "A library to run erlang nodes without epmd daemon"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    ssl
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, [{"Github", "https://github.com/drvspw/epmdlib.git"}]}
+ ]}.
